@@ -8,7 +8,7 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <link rel="icon" href="/static/images/fevicon.png" type="image/gif" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
@@ -35,53 +35,7 @@
 
   <div class="hero_area">
     <!-- header section strats -->
-    <header class="header_section long_section px-0">
-      <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="index.html">
-          <span>
-            Edgecut
-          </span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class=""> </span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
-            <ul class="navbar-nav  ">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="furniture.html">Furnitures</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          <div class="quote_btn-container">
-            <a href="">
-              <span>
-                Login
-              </span>
-              <i class="fa fa-user" aria-hidden="true"></i>
-            </a>
-            <form class="form-inline">
-              <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
+    {% include 'navbar.html' %}
     <!-- end header section -->
     <!-- slider section -->
     <section class="slider_section long_section">
@@ -111,7 +65,7 @@
                 </div>
                 <div class="col-md-7">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                    <img src="/static/images/slider-img.png" alt="">
                   </div>
                 </div>
               </div>
@@ -141,7 +95,7 @@
                 </div>
                 <div class="col-md-7">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                    <img src="/static/images/slider-img.png" alt="">
                   </div>
                 </div>
               </div>
@@ -171,7 +125,7 @@
                 </div>
                 <div class="col-md-7">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                    <img src="/static/images/slider-img.png" alt="">
                   </div>
                 </div>
               </div>
@@ -204,7 +158,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/f1.png" alt="">
+              <img src="/static/images/f1.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -224,7 +178,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/f2.png" alt="">
+              <img src="/static/images/f2.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -244,7 +198,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/f3.png" alt="">
+              <img src="/static/images/f3.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -264,7 +218,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/f4.png" alt="">
+              <img src="/static/images/f4.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -284,7 +238,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/f5.png" alt="">
+              <img src="/static/images/f5.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -304,7 +258,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/f6.png" alt="">
+              <img src="/static/images/f6.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -335,7 +289,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="images/about-img.png" alt="">
+            <img src="/static/images/about-img.png" alt="">
           </div>
         </div>
         <div class="col-md-6">
@@ -372,7 +326,7 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="images/b1.jpg" alt="">
+              <img src="/static/images/b1.jpg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -390,7 +344,7 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="images/b2.jpg" alt="">
+              <img src="/static/images/b2.jpg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -408,7 +362,7 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="images/b3.jpg" alt="">
+              <img src="/static/images/b3.jpg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -445,7 +399,7 @@
               <div class="col-md-11 col-lg-10 mx-auto">
                 <div class="box">
                   <div class="img-box">
-                    <img src="images/client.jpg" alt="" />
+                    <img src="/static/images/client.jpg" alt="" />
                   </div>
                   <div class="detail-box">
                     <div class="name">
@@ -469,7 +423,7 @@
               <div class="col-md-11 col-lg-10 mx-auto">
                 <div class="box">
                   <div class="img-box">
-                    <img src="images/client.jpg" alt="" />
+                    <img src="/static/images/client.jpg" alt="" />
                   </div>
                   <div class="detail-box">
                     <div class="name">
@@ -493,7 +447,7 @@
               <div class="col-md-11 col-lg-10 mx-auto">
                 <div class="box">
                   <div class="img-box">
-                    <img src="images/client.jpg" alt="" />
+                    <img src="/static/images/client.jpg" alt="" />
                   </div>
                   <div class="detail-box">
                     <div class="name">
@@ -607,7 +561,7 @@
               </h4>
               <div class="info_links_menu">
                 <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="" href="about.html"> About</a>
+                <a class="" href="{% url 'about' %}"> About</a>
                 <a class="" href="furniture.html">Furniture</a>
                 <a class="" href="blog.html">Blog</a>
                 <a class="" href="contact.html">Contact Us</a>
@@ -621,22 +575,22 @@
               </h5>
               <div class="post_box">
                 <div class="img-box">
-                  <img src="images/f1.png" alt="">
+                  <img src="/static/images/f1.png" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="images/f2.png" alt="">
+                  <img src="/static/images/f2.png" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="images/f3.png" alt="">
+                  <img src="/static/images/f3.png" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="images/f4.png" alt="">
+                  <img src="/static/images/f4.png" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="images/f5.png" alt="">
+                  <img src="/static/images/f5.png" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="images/f6.png" alt="">
+                  <img src="/static/images/f6.png" alt="">
                 </div>
               </div>
             </div>
@@ -674,17 +628,7 @@
   </section>
   <!-- end info_section -->
 
-
-  <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
-    </div>
-  </footer>
-  <!-- footer section -->
+  {% include 'footer.html' %}
 
 
   <!-- jQery -->
